@@ -1,0 +1,10 @@
+.mainDiv{
+    background-color: black;
+    min-height:500px;
+    width: 400px;
+    margin: 40px auto;
+    border: thin 50px;
+    border-radius: 5px;
+    box-shadow: 19px 17px 22px 10px #474a56;
+}
+                        

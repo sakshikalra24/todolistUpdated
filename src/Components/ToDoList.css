@@ -1,0 +1,94 @@
+
+.item{
+    background-color:black ;
+      color:rgb(216, 190, 190); 
+    width: 380px;
+    height: 30px;
+     margin: 10px auto; 
+     margin-bottom: 20px;
+     margin-right: 10px;
+     margin-block-end: 10px;
+    box-shadow: 2px 2px 10px 2px #474a56;
+    border-radius: 10px; 
+    border:  #474a56 ;
+    border-width: 2px;
+    position: relative;
+    /* text-align: center; */
+   
+
+}
+
+.inputItem
+{
+    background-color:#474a56 ;
+    border: none;
+  
+     outline: none  ;
+     background: transparent;
+     
+     
+     font-size: 20px;
+     border-radius: 10px;
+     height: 20px;
+     width: 150px;
+     color:rgb(216, 190, 190);
+}
+
+.checkBox,
+.editButton,
+.deleteButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+
+.checkBox{
+    color: rgb(216, 190, 190);
+ 
+    margin-left: 100px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(216, 190, 190);
+    cursor: pointer;
+    
+}
+
+
+
+.editButton{
+    color: rgb(216, 190, 190);
+    /* margin-right: 10px ; */
+    height: 10px;
+    width: 20px;
+    margin-left: 10px;
+}
+.deleteButton{
+    color: rgb(216, 190, 190);
+    margin-right: 10px;
+    height: 10px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.inputItemcompleted{ 
+    background-color:#474a56 ;
+    border: none;
+  
+     outline: none  ;
+     background: transparent;
+     
+     
+     font-size: 20px;
+     border-radius: 10px;
+     height: 20px;
+     width: 150px;
+     color:rgb(216, 190, 190);
+     text-decoration-style: solid ;
+    text-decoration-line: line-through ;
+    text-decoration-color: red ;
+    position: relative;
+
+}
